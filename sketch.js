@@ -19,13 +19,13 @@ function draw() {
     }  
     else{
      if(deformation<100){
-       car.shapeColor=colour(0,255,0)
+       car.shapeColor=color(0,255,0)
      }
      else if(deformation=random(100,180) ){
-      car.shapeColour=colour(230,230,0)
+      car.shapeColour=color(230,230,0)
      }
      if(deformation>180){
-       car.shapeColor=colour(255,0,0)
+       car.shapeColor=color(255,0,0)
      }
         
     }
