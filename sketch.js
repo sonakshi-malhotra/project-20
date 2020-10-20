@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(255,255,255);  
- if(wall.x - car.x < car.width/2+ wall.width/2)
+ if(wall.x - car.x < car.width/2+ wall.width/2){}
   if(deformation=0.5*weight*speed*speed/22500){
       car.shapeColor="pink"
       wall.shapeColor="blue"
